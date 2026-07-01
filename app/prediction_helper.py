@@ -4,8 +4,8 @@ from joblib import load
 # ================= Load ================= #
 
 
-model = load("artifacts/train_model.pkl")
-scaler_data = load("artifacts/scaler.pkl")
+model = load("app/artifacts/train_model.pkl")
+scaler_data = load("app/artifacts/scaler.pkl")
 
 scaler = scaler_data["scaler"]
 cols_to_scale = scaler_data["cols_to_scale"]
