@@ -38,7 +38,7 @@ def preprocess(input_dict):
         'employment_status_Self-Employed'
     ]
 
-    X = pd.DataFrame([[0]*len(columns)], columns=columns)
+    X = pd.DataFrame([[0.0]*len(columns)], columns=columns)
 
     # --------------------------------------------------
     # Numerical
